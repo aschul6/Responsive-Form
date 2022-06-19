@@ -189,10 +189,10 @@ hr {
         padding-top: 15px;
     }
     label[for="state"] {
-        width: 110px;
+        width: 103px;
     }
     select[id='state'] {
-        width: 620px;
+        width: 423px;
         border: none;
         background-color: rgb(240, 240, 241);
         height: 48px;
@@ -220,5 +220,14 @@ hr {
         top: 35px;
         right: 10px;
         position: absolute;
+    }
+    label[for="zip"] {
+        max-width: 103px;
+    }
+    input[id="zip"] {
+        max-width: 150px;
+    }
+    .hline {
+        margin-top: 20px;
     }
 }
