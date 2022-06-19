@@ -90,23 +90,36 @@
           <div class="hline"></div>
           <div class="bottom"></div>
             <h2>Newsletter</h2>
-            <p></p>
+            <p>Select the newsletters you would like to receive</p>
             <fieldset class="checktype">
+             <div class="inputgroup">
               <input type="checkbox" id="htmlnews" name="htmlnews">
               <label for="htmlnews">HTML News</label>
+            </div>
+            <div class="inputgroup">
               <input type="checkbox" id="cssnews" name="cssnews">
               <label for="cssnews">CSS News</label>
+            </div>
+            <div class="inputgroup">
               <input type="checkbox" id="jsnews" name="jsnews">
               <label for="jsnews">Javascript News</label>
+            </div>
             </fieldset>
+            <p>Newsletter format</p>
             <fieldset class="format">
+             <div class="inputgroup">
               <input type="radio" id="htmlformat" name="html-format">
               <label for="htmlformat">HTML</label>
-              <input type="checkbox" id="plaintext" name="plain-text">
+             </div>
+             <div class="inputgroup">
+              <input type="radio" id="plaintext" name="plain-text">
               <label for="plaintext">Plain text</label>
-              <label for="other">Other topics you'd like to hear about</label>
-              <input type="textarea" id="other" name="other-topics">
-              <input type="submit" id="submit" name="sign-up" value="Sign Up">
+             </div>
+            </fieldset>
+            <fieldset class="end">
+                <label for="other">Other topics you'd like to hear about</label>
+                <input type="textarea" id="other" name="other-topics">
+                <input type="submit" id="submit" name="sign-up" value="Sign Up">
             </fieldset>
       </form>
     </section>

@@ -52,6 +52,26 @@ h2 {
 .top h1 {
     padding: 5px;
 }
+p {
+    padding: 10px 0;
+    font-size: 12px;
+    color: rgb(138, 155, 172);
+}
+.checktype,
+.format {
+    display: flex;
+    flex-direction: column;
+}
+.format {
+    padding-top: 0;
+}
+.end {
+    padding-top: 10px;
+}
+/* -- Form Elements and Attributes -- */
+fieldset {
+    border: none;
+}
 label {
     font-family: 'Merriweather', serif;
     color: rgb(138, 155, 172);
@@ -68,10 +88,21 @@ input {
     height: 48px;
     border-radius: 2px;
 }
+input[type='checkbox'],
+input[type='radio'] {
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+}
+input[type='textarea'] {
+    height: 90px;
+}
+/* -- Dividing Lines -- */
 hr {
     border: none;
     border-top: 3px solid black;
     padding: 1.5px;
+    margin: 0;
 }
 .double {
     height: 5px;
@@ -81,7 +112,6 @@ hr {
     border: none;
     border-top: 3px solid black;
     padding: 1.5px;
-    margin: 15px 0;
 }
 
 /* -- Media Queries -- */
