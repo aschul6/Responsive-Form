@@ -12,78 +12,103 @@
       <h1>The Code Review</h1>
     </header>
     <section class="main">
-      <h1>Signup for our newsletter</h1>
-      <p>Get the latest news on how your code is doing right in your inbox</p>
-      <span class="divider"></span>
+      <div class="top">
+        <h1>Signup for our newsletter</h1>
+        <p>Get the latest news on how your code is doing right in your inbox</p>
+      </div>
+      <hr class="double"/>
         <h2>Contact Information</h2>
           <form>
-            <label for="fullname">First name</label><br>
-            <input type="text" id="fullname" name="user-fullname"><br>
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="user-email">
-            <label for="phone">Phone Number</label><br>
-            <input type="text" id="phone" name="user-phone"><br>
-            <label for="address1">Street Address</label>
-            <input type="text" id="address" name="user-address">
-            <label for="city">City</label>
-            <input type="text" id="city" name="user-city">
-            <label for="state">State</label>
-            <input list="state">
-              <datalist id="state">
-                <option value="AK">
-                <option value="AL">
-                <option value="AR">
-                <option value="AZ">
-                <option value="CA">
-                <option value="CO">
-                <option value="CT">
-                <option value="DE">
-                <option value="FL">
-                <option value="GA">
-                <option value="HI">
-                <option value="IA">
-                <option value="ID">
-                <option value="IL">
-                <option value="IN">
-                <option value="KS">
-                <option value="KY">
-                <option value="LA">
-                <option value="MA">
-                <option value="MD">
-                <option value="ME">
-                <option value="MI">
-                <option value="MN">
-                <option value="MO">
-                <option value="MS">
-                <option value="MT">
-                <option value="NC">
-                <option value="ND">
-                <option value="NE">
-                <option value="NH">
-                <option value="NJ">
-                <option value="NM">
-                <option value="NV">
-                <option value="NY">
-                <option value="OH">
-                <option value="OK">
-                <option value="OR">
-                <option value="PA">
-                <option value="RI">
-                <option value="SC">
-                <option value="SD">
-                <option value="TN">
-                <option value="TX">
-                <option value="UT">
-                <option value="VT">
-                <option value="VA">
-                <option value="WA">
-                <option value="WI">
-                <option value="WV">
-                <option value="WY">
-              </datalist>
-            <label for="zip">Zip Code</label>
-            <input type="text" id="zip" name="user-zip">
-          </form>
+            <fieldset class="midarea">
+              <label for="fullname">Full Name</label><br>
+              <input type="text" id="fullname" name="user-fullname"><br>
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="user-email">
+              <label for="phone">Phone Number</label><br>
+              <input type="text" id="phone" name="user-phone"><br>
+              <label for="address1">Street Address</label>
+              <input type="text" id="address" name="user-address">
+              <label for="city">City</label>
+              <input type="text" id="city" name="user-city">
+              <label for="state">State</label>
+              <input list="state">
+                <datalist id="state">
+                  <option value="AK">
+                  <option value="AL">
+                  <option value="AR">
+                  <option value="AZ">
+                  <option value="CA">
+                  <option value="CO">
+                  <option value="CT">
+                  <option value="DE">
+                  <option value="FL">
+                  <option value="GA">
+                  <option value="HI">
+                  <option value="IA">
+                  <option value="ID">
+                  <option value="IL">
+                  <option value="IN">
+                  <option value="KS">
+                  <option value="KY">
+                  <option value="LA">
+                  <option value="MA">
+                  <option value="MD">
+                  <option value="ME">
+                  <option value="MI">
+                  <option value="MN">
+                  <option value="MO">
+                  <option value="MS">
+                  <option value="MT">
+                  <option value="NC">
+                  <option value="ND">
+                  <option value="NE">
+                  <option value="NH">
+                  <option value="NJ">
+                  <option value="NM">
+                  <option value="NV">
+                  <option value="NY">
+                  <option value="OH">
+                  <option value="OK">
+                  <option value="OR">
+                  <option value="PA">
+                  <option value="RI">
+                  <option value="SC">
+                  <option value="SD">
+                  <option value="TN">
+                  <option value="TX">
+                  <option value="UT">
+                  <option value="VT">
+                  <option value="VA">
+                  <option value="WA">
+                  <option value="WI">
+                  <option value="WV">
+                  <option value="WY">
+                </datalist>
+              <label for="zip">Zip Code</label>
+              <input type="text" id="zip" name="user-zip">
+            </fieldset>
+          <div class="hline"></div>
+          <div class="bottom"></div>
+            <h2>Newsletter</h2>
+            <p></p>
+            <fieldset class="checktype">
+              <input type="checkbox" id="htmlnews" name="htmlnews">
+              <label for="htmlnews">HTML News</label>
+              <input type="checkbox" id="cssnews" name="cssnews">
+              <label for="cssnews">CSS News</label>
+              <input type="checkbox" id="jsnews" name="jsnews">
+              <label for="jsnews">Javascript News</label>
+            </fieldset>
+            <fieldset class="format">
+              <input type="radio" id="htmlformat" name="html-format">
+              <label for="htmlformat">HTML</label>
+              <input type="checkbox" id="plaintext" name="plain-text">
+              <label for="plaintext">Plain text</label>
+              <label for="other">Other topics you'd like to hear about</label>
+              <input type="textarea" id="other" name="other-topics">
+              <input type="submit" id="submit" name="sign-up" value="Sign Up">
+            </fieldset>
+      </form>
     </section>
   </body>
 </html>

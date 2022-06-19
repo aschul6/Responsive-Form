@@ -10,11 +10,11 @@
     box-sizing: border-box;
 }
 body {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0 auto;
     padding: 0;
     font-family: 'Merriweather', serif;
-    color: rgb(43, 45, 56);
+    color: rgb(39, 52, 65);
 }
 
 /* -- Body Styles -- */
@@ -22,28 +22,66 @@ body {
 header {
     margin: 0;
     padding: 0;
-    background-color: rgb(43, 45, 56);
+    background-color: rgb(39, 52, 65);
     color: white;
     height: 50px;
     width: 100%;
     text-align: center;
 }
 header h1 {
-    font-size: 15px;
-    padding-top: 15px;
+    font-size: 18px;
     text-transform: uppercase;
+    padding-top: 15px;
 }
 .main {
     max-width: 93%;
     margin: auto;
 }
+.top {
+    text-align: center;
+    margin: 25px;
+}
+.top h1,
+h2 {
+    font-size: 17px;
+}
+h2 {
+    padding: 20px 0;
+}
+.top p,
+.top h1 {
+    padding: 5px;
+}
+label {
+    font-family: 'Merriweather', serif;
+    color: rgb(138, 155, 172);
+}
+label,
+input {
+    font-size: 12px;
+    margin: 12px 0;
+}
 input {
     border: none;
     background-color: rgb(240, 240, 241);
     width: 100%;
-    height: 40px;
+    height: 48px;
     border-radius: 2px;
 }
-
+hr {
+    border: none;
+    border-top: 3px solid black;
+    padding: 1.5px;
+}
+.double {
+    height: 5px;
+    border-bottom: 1px solid black;
+}
+.hline {
+    border: none;
+    border-top: 3px solid black;
+    padding: 1.5px;
+    margin: 15px 0;
+}
 
 /* -- Media Queries -- */
