@@ -76,7 +76,6 @@ footer p {
 fieldset {
     border: none;
     border-radius: 4px;
-    background-color: #f1fffe;
 }
 label {
     color: rgb(138, 155, 172);
@@ -97,8 +96,8 @@ select {
     margin: 10px 0;
 }
 input:focus {
+    border: rgb(39, 52, 65) 2px solid;
     border-radius: 4px;
-    border: solid 4px goldenrod;
 }
 input[type='checkbox'],
 input[type='radio'] {
@@ -160,8 +159,10 @@ select {
     right: 10px;
     position: absolute;
 }
-input[id="zip"] {
-    max-width: 50%;
+.zipflex {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 /* -- Dividing Lines -- */
@@ -183,7 +184,20 @@ hr {
 
 /* -- Media Queries -- */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
+    input[id="zip"] {
+        width: 50%;
+    }
+    .zipflex {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .zipflex label {
+        margin-right: 45px;
+    }
+}
+@media screen and (min-width: 798px) {
     .main {
         max-width: 50%;
     }
@@ -234,10 +248,13 @@ hr {
         position: absolute;
     }
     label[for="zip"] {
-        max-width: 103px;
+        width: 63px;
     }
     input[id="zip"] {
-        max-width: 150px;
+        width: 25%;
+    }
+    .zipflex label {
+        margin-right: 45px;
     }
     .hline {
         margin-top: 20px;
