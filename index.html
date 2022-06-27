@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/styles.css" rel="stylesheet">
-    <link href="css/reset.css" rel="stylesheet">
     <title>Sign Up</title>
   </head>
   <body>
@@ -30,7 +29,7 @@
               </div>
               <div class="mainformflex">
                 <label for="phone">Phone Number</label><br>
-                <input type="text" id="phone" name="user-phone" placeholder="Optional"><br>
+                <input type="tel" id="phone" name="user-phone" placeholder="Optional"><br>
               </div>
               <div class="mainformflex">
                 <label for="address">Street Address</label>
@@ -118,7 +117,6 @@
               <input type="checkbox" id="jsnews" name="jsnews">
               <label for="jsnews">Javascript News</label>
             </div>
-            </fieldset>
             <p>Newsletter format</p>
             <fieldset class="format">
              <div class="inputgroup">
@@ -132,7 +130,7 @@
             </fieldset>
             <fieldset class="end">
                 <label for="other">Other topics you'd like to hear about</label>
-                <input type="text" id="other" name="other-topics" placeholder="Optional">
+                <input type="textarea" id="other" name="other-topics" placeholder="Optional">
                 <input type="submit" id="submit" name="sign-up" value="Sign Up">
             </fieldset>
       </form>
