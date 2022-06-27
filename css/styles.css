@@ -77,6 +77,9 @@ fieldset {
     border: none;
     border-radius: 4px;
 }
+legend {
+    width: 100%;
+}
 label {
     color: rgb(138, 155, 172);
 }
@@ -162,6 +165,8 @@ select {
 .zipflex {
     display: flex;
     flex-direction: column;
+}
+input[id="zip"] {
     width: 50%;
 }
 
@@ -184,14 +189,9 @@ hr {
 
 /* -- Media Queries -- */
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 759px) {
     input[id="zip"] {
-        width: 50%;
-    }
-    .zipflex {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
+        width: 25%;
     }
     .zipflex label {
         margin-right: 45px;
@@ -249,14 +249,12 @@ hr {
     }
     label[for="zip"] {
         width: 63px;
-    }
-    input[id="zip"] {
-        width: 25%;
-    }
-    .zipflex label {
         margin-right: 45px;
     }
     .hline {
         margin-top: 20px;
+    }
+    .zipflex {
+        flex-direction: row;
     }
 }
