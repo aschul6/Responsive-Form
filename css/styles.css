@@ -189,14 +189,6 @@ hr {
 
 /* -- Media Queries -- */
 
-@media screen and (min-width: 759px) {
-    input[id="zip"] {
-        width: 25%;
-    }
-    .zipflex label {
-        margin-right: 45px;
-    }
-}
 @media screen and (min-width: 798px) {
     .main {
         max-width: 50%;
@@ -256,5 +248,8 @@ hr {
     }
     .zipflex {
         flex-direction: row;
+    }
+    input[id="zip"] {
+        width: 25%;
     }
 }
