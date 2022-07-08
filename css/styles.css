@@ -98,9 +98,12 @@ select {
     padding: 0 15px;
     margin: 10px 0;
 }
-input:focus {
+input:focus,
+select:focus,
+textarea:focus {
     border: rgb(39, 52, 65) 2px solid;
     border-radius: 4px;
+    outline: 0;
 }
 input[type='checkbox'],
 input[type='radio'] {
@@ -189,7 +192,7 @@ hr {
 
 /* -- Media Queries -- */
 
-@media screen and (min-width: 798px) {
+@media screen and (min-width: 768px) {
     .main {
         max-width: 50%;
     }

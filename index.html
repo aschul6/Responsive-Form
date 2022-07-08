@@ -19,7 +19,7 @@
         <h2>Contact Information</h2>
           <form>
             <fieldset>
-              <legend class="midarea">
+              <legend class="midarea"></legend>
                 <div class="mainformflex">
                   <label for="fullname">Full Name</label><br>
                   <input type="text" id="fullname" name="user-fullname" placeholder="Required" required><br>
@@ -100,14 +100,13 @@
                   <label for="zip">Zip Code</label>
                   <input type="text" id="zip" name="user-zip">
                 </div>
-              </legend>
             </fieldset>
           <div class="hline"></div>
           <div class="bottom"></div>
             <h2>Newsletter</h2>
             <p>Select the newsletters you would like to receive</p>
             <fieldset>
-              <legend class="checktype">
+              <legend class="newsletter"></legend>
               <div class="inputgroup">
                 <input type="checkbox" id="htmlnews" name="htmlnews">
                 <label for="htmlnews">HTML News</label>
@@ -120,23 +119,18 @@
                 <input type="checkbox" id="jsnews" name="jsnews">
                 <label for="jsnews">Javascript News</label>
               </div>
-              </legend>
             <p>Newsletter format</p>
-              <legend class="format">
               <div class="inputgroup">
-                <input type="radio" id="htmlformat" name="html-format">
+                <input type="radio" id="htmlformat" name="format">
                 <label for="htmlformat">HTML</label>
               </div>
               <div class="inputgroup">
-                <input type="radio" id="plaintext" name="plain-text">
+                <input type="radio" id="plaintext" name="format">
                 <label for="plaintext">Plain text</label>
               </div>
-              </legend>
-              <legend class="end">
                   <label for="other">Other topics you'd like to hear about</label>
-                  <input type="text" id="other" name="other-topics" placeholder="Optional">
+                  <input type="textarea" id="other" name="other-topics" placeholder="Optional">
                   <input type="submit" id="submit" name="sign-up" value="Sign Up">
-              </legend>
           </fieldset>
       </form>
     </section>
