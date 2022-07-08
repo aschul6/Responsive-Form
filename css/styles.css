@@ -97,6 +97,7 @@ select {
     border-radius: 4px;
     padding: 0 15px;
     margin: 10px 0;
+    outline: 0;
 }
 input:focus,
 select:focus,
@@ -245,6 +246,7 @@ hr {
     label[for="zip"] {
         width: 63px;
         margin-right: 45px;
+        padding-top: 15px;
     }
     .hline {
         margin-top: 20px;
