@@ -40,15 +40,15 @@ header h1 {
     text-align: center;
     margin: 25px;
 }
-.top h1,
-h2 {
+.top h2,
+h3 {
     font-size: 17px;
 }
-h2 {
+h3 {
     padding: 20px 0;
 }
 .top p,
-.top h1 {
+.top h2 {
     padding: 5px;
 }
 p {
@@ -245,7 +245,7 @@ hr {
     }
     label[for="zip"] {
         width: 63px;
-        margin-right: 45px;
+        margin-right: 38px;
         padding-top: 15px;
     }
     .hline {
@@ -255,6 +255,6 @@ hr {
         flex-direction: row;
     }
     input[id="zip"] {
-        width: 25%;
+        width: 21%;
     }
 }
